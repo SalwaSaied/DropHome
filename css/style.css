@@ -58,12 +58,18 @@
    margin-top: 7px;
    margin-right: 5px;
    border-radius: 0px 20px 20px 20px !important;
-
 }
+ 
 .search-btn-custom{
    margin-top: 7px;
    margin-right: 5px;
    border-radius: 0px 20px 20px 20px !important;
+}
+@media (max-width: 500px) {  
+   .responsive-header {  
+       width: calc(100% - -17px) !important; /* 1 card in a row */  
+      
+   } 
 }
 /* slider */
 
@@ -172,6 +178,12 @@ margin-left: 25px;
    left: -16px;
    bottom: -55px;
 }
+@media (max-width: 500px) {  
+   .featured-icon-custom {  
+       visibility: hidden; 
+      
+   } 
+}
 .featured-icon-custom:hover{
    transform: rotate(20deg);
    transition: ease-in-out;
@@ -235,8 +247,12 @@ margin-left: 25px;
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
    margin-left: 40px;
    border-radius: 0px 30px 30px 30px !important;
-
-
+}
+@media (max-width: 500px) {  
+   .video-content .video-frame img {  
+      width: 118%!important; /* 1 card in a row */  
+      
+   } 
 }
 .video-content .video-frame img{
    border-radius: 0px 30px 30px 30px !important;
@@ -265,6 +281,18 @@ margin-left: 25px;
 .best-deal {
    background-color: #fafafa;
    padding-top: 170px;
+}
+@media (max-width: 500px) {  
+   .best-deal {  
+   padding-top: 0px;   
+   margin-top: 10px !important;   
+   }
+   .responsive-ul{
+      padding-top: 129px;
+      width: calc(100% - -3px) !important
+  
+   }
+
 }
 .section-heading h2 {
    font-size: 40px;
